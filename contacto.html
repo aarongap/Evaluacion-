@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="text-align: center;background-color: blue;">
+        <h1>Contacto</h1>
+    </header>
+    <nav style="background-color: aqua;">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <h2 style="background-color: rgb(112, 112, 204); text-align: center;">Sin contexto</h2>
+    <main style="background-color: aquamarine;">
+        <section style="background-color: cornsilk; width: 50%; height:550px;float: left; text-align: center;" >
+            <h2>Debajo del árbol</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre completo" maxlength="50">
+                </p>
+                <p>
+                    <label for="correo">Correo Electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" required placeholder="tu.email@ejemplo.com">
+                </p>
+                <p>
+                    <label for="tipo_consulta">Tipo de Consulta:</label><br>
+                    <select id="tipo_consulta" name="tipo_consulta" required>
+                        <option value="">-- Selecciona una opción --</option>
+                        <option value="general">Consulta General</option>
+                        <option value="servicios">Pregunta sobre Servicios</option>
+                        <option value="soporte">Soporte Técnico</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..." maxlength="500"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Enviar Mensaje</button>
+                    <!-- <button type="reset">Limpiar</button> --> <!-- Botón opcional -->
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer style="text-align: center;background-color: blue;"><h4>Creado:Aaron</h4></footer>
+</body>
+</html>
